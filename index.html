@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="/main.js" defer></script>
+    <title>Postdude</title>
+  </head>
+  <body>
+    <div id="app" class="m-2">
+      <div
+        data-json-response-body
+        class="overflow-auto"
+        style="max-height: 100vh"
+      ></div>
+    </div>
+    <div
+      class="container"
+      id="response-header-grid"
+      data-response-headers
+    ></div>
+    <div
+      class="container"
+      id="response-cookie-grid"
+      data-response-cookies
+    ></div>
+  </body>
+</html>
